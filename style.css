@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 70vw;
+  margin: 5rem auto;
+}
+
+#form {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  height: 2rem;
+  padding: 0 5px;
+}
+
+#btn {
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border-color: transparent;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
